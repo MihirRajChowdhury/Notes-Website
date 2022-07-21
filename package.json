@@ -4,7 +4,7 @@
   "description": "This is a to do list app that I am currently designing",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js"
+   
 
   },
   "author": "Mihir",
