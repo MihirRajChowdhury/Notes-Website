@@ -121,13 +121,13 @@ app.get("/about", (req, res) => {
 });
 
 let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 3000;
-}
+// if (port == null || port == "") {
+//   port = 3000;
+// }
 
 
 app.listen(port, () => {
-  console.log("Server has been started Successfully"+port);
+  console.log("Server has been started Successfully "+port);
 });
 
 
