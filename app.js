@@ -120,14 +120,14 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-let port = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 // if (port == null || port == "") {
 //   port = 3000;
 // }
 
 
-app.listen(port, () => {
-  console.log("Server has been started Successfully "+port);
+app.listen(PORT, () => {
+  console.log("Server has been started Successfully "+PORT);
 });
 
 
