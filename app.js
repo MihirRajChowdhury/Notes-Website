@@ -120,8 +120,10 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.listen(3000, () => {
-  console.log("App has been started");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("Server has been started Successfully");
 });
 
 
