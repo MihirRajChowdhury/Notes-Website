@@ -123,7 +123,7 @@ app.get("/about", (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log("Server has been started Successfully");
+  console.log("Server has been started Successfully",this.address().port, app.settings.env);
 });
 
 
